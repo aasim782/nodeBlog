@@ -1,5 +1,5 @@
 # nodeBlog
-A simple blog made using Nodejs, Express, and MongoDB (Mongoose).
+A simple blog made using Nodejs, Express, MongoDB (Mongoose), and Bootstrap.
 
 # Run
 
