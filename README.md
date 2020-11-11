@@ -20,4 +20,4 @@ As I said it uses MongoDB as the database. To keep things simple, I used the pop
 
 # Finished Version (HomePage)
 
-<img src="https://i.ibb.co/cky6Kpq/nodeblog.png" alt="finished version of my nodeBlog" />
+<img src="https://i.ibb.co/cky6Kpq/nodeblog.png" alt="finished version of my nodeBlog showing homepage" />
