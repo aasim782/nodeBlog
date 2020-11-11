@@ -1,0 +1,13 @@
+<%- include('./partials/_header') %>
+
+    <div class="container">
+      <h1 class="mb-3">Edit</h1>
+      <form action="/edit/<%= post.slug %>" method="POST">
+        <%- include('./partials/_create_form') %>
+  
+      <button type="submit" class="btn btn-success">Save</button>
+      </form>
+    </div>
+
+
+<%- include('./partials/_footer') %>

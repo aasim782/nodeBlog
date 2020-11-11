@@ -1,0 +1,26 @@
+
+
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" class="form-control" value="<%= post.title %>" required>
+      </div>
+
+      <!-- <div class="form-group">
+        <label for="img">Image</label>
+        <input type="file" class="form-control-file" id="img">
+      </div> -->
+
+      <div class="form-group">
+        <label for="meta_desc">Meta Desc</label>
+        <textarea name="meta_desc" id="meta_desc" class="form-control" required><%= post.meta_desc %></textarea>  
+      </div>
+
+      <div class="form-group">
+        <label for="body">Body</label>
+        <textarea rows="10" id="body" class="form-control" name="body" required><%= post.body %></textarea>  
+      </div>
+
+     <div class="form-check">
+       <input type="checkbox" class="form-check-input" name="published" id="published" <% if (post.published) { %> checked <% } %>>
+       <label for="published">Published</label>
+     </div>

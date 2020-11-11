@@ -1,0 +1,33 @@
+<%- include('./partials/_header') %>
+
+    <div class="container">
+      <h1 class="mb-3">Blog Posts</h1>
+      
+      <% if (posts.length > 0) { %>
+        <div class="card-columns">
+  
+          <% posts.forEach(post => { %>
+            <div class="card">
+                <% if (post.img) { %>
+                  <img src="img/pic1.png" alt="First Image" class="card-img-top">
+                <% } %>
+                <div class="card-body">
+                  <a href="/detail/<%= post.slug %>">
+                    <h2 class="card-title"><%= post.title %></h2>
+                  </a>
+                  <p><%= post.meta_desc %></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Posted on <%= post.date_posted.toLocaleDateString() %></small>
+                </div>
+            </div>
+         <% }) %>
+    
+        </div>
+      <% } else { %>
+        <p>Oops, No Posts yet!</p>
+      <% } %>
+    </div>
+
+
+<%- include('./partials/_footer') %>

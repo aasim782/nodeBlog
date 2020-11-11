@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.btn {
+  max-width: 100px;
+}
+
+.main-container {
+  margin-bottom: 4rem;
+  height: 100vh !important;
+  width: 100%;
+}

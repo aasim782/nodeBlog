@@ -1,0 +1,19 @@
+<%- include('./partials/_header') %>
+    <div class="post-container container">
+      <h1 class="mb-3 cool"><%= post.title %></h1>
+      
+      <div class="d-flex">
+        <a href="/edit/<%= post.slug %>" class="btn btn-primary">Edit</a>
+      <form action="/delete/<%= post.slug %>" method="POST" class="ml-2">
+        <button type="submit" class="btn btn-danger">Delete</button>
+      </form>
+      </div>
+      <p class="my-4">
+        <small class="text-muted">Posted on <%= post.date_posted.toLocaleDateString() %></small>
+      </p>
+      <p class="my-4">
+        <%= post.body %>
+      </p>
+    </div>
+
+<%- include('./partials/_footer') %>
