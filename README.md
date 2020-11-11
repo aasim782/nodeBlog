@@ -1,5 +1,5 @@
 # nodeBlog
-A simple nodeBlog made using Nodejs, Express, and MongoDB (Mongoose).
+A simple blog made using Nodejs, Express, and MongoDB (Mongoose).
 
 # Run
 
@@ -20,4 +20,4 @@ As I said it uses MongoDB as the database. To keep things simple, I used the pop
 
 # Finished Version (HomePage)
 
-<img src="https://i.ibb.co/cky6Kpq/nodeblog.png" width="400px" />
+<img src="https://i.ibb.co/cky6Kpq/nodeblog.png" alt="finished version of my nodeBlog" />
